@@ -13,18 +13,19 @@ local multipliers = {
 }
 
 --[=[
-    Expands an abbreviated number to it literal value.
+	@function expand
+	@within MathUtils
+	@param abbreviated string
+	@return number
 
-    ```luau
-    local abbreviated = "6.69K"
-    local number = expand(abbreviated)
-	
-    print(number) -- 6969
-    ```
+	Expands an abbreviated number to it's literal value.
 
-    @param abbreviated string
+	```lua
+	local abbreviated = "6.69K"
+	local number = expand(abbreviated)
 
-    @return The expanded number
+	print(number) -- 6969
+	```
 ]=]
 return function(abbreviated: string): number
 	local number = tonumber(abbreviated)
@@ -37,5 +38,5 @@ return function(abbreviated: string): number
 		return tonumber(value) * multipliers[suffix:upper()]
 	end
 
-	return 0
+	return math.nan
 end

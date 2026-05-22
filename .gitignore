@@ -13,4 +13,5 @@
 /*.rbxmx
 
 # Misc
-.DS_Store
+/.DS_Store
+/build

@@ -14,18 +14,19 @@ local suffixes = {
 }
 
 --[=[
-    Abbreviates a number with a suffix.
+	@function abbreviate
+	@within MathUtils
+	@param number number
+	@return string
 
-    ```luau
-    local number = 6969
-    local abbreviated = abbreviate(number)
-	
-    print(abbreviated) -- 6.69K
-    ```
+	Abbreviates a number with a suffix.
 
-    @param number number
+	```lua
+	local number = 6969
+	local abbreviated = abbreviate(number)
 
-    @return The formatted string
+	print(abbreviated) -- 6.69K
+	```
 ]=]
 return function(number: number): string
 	if tostring(number) == "inf" then

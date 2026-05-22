@@ -1,9 +1,10 @@
 [package]
 name = "yuzkkj/math-utils"
-version = "1.0.0"
+version = "1.0.1"
 registry = "https://github.com/UpliftGames/wally-index"
 realm = "shared"
 description = "A library for math related utility functions."
+repository = "https://github.com/Yuzkkj/math-utils"
 license = "MIT"
 authors = ["Yuz"]
 exclude = ["**"]

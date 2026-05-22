@@ -5,7 +5,9 @@ local formatTime = require(script.formatTime)
 local round = require(script.round)
 
 --[=[
-    A Library for math related utility functions.
+	@class MathUtils
+
+	A Library for math related utility functions.
 ]=]
 return {
 	abbreviate = abbreviate,

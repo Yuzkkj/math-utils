@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkdocs=self.webpackChunkdocs||[]).push([[232],{4410:s=>{s.exports=JSON.parse('{"sourceUrl":"https://github.com/Yuzkkj/math-utils/blob/master","baseUrl":"/math-utils/","classOrder":[],"apiCategories":[]}')}}]);
